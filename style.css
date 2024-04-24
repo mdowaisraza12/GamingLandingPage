@@ -21,12 +21,22 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 section h1{
     text-transform: uppercase;
-    color: rgb(255, 223, 223);
+    color: rgba(255, 255, 255, 0);
+
     font-size: 150px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
 
-
+section h5{
+    font-size: 20px;
+    color:rgb(255, 223, 223);
+    position: absolute;
+    text-transform: lowercase;
+    bottom: 1%;
+    right: 1%;
 }
